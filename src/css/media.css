@@ -1,0 +1,277 @@
+/*************** 中等屏幕大小 ***************/
+@media screen and (min-width: 640px) and (max-width: 1366px) {
+
+    /********** 日程安排 Schedule ***********/
+    .schedule h2 { margin-top: 50px; }
+
+    /******* 主办方 合作伙伴 Partner ********/
+    .partner_logo { padding-bottom: 20px; }
+}
+
+/*************** 手机屏幕 ***************/
+@media screen and (max-width: 640px) {
+    body { overflow: auto; }
+    /* 导航 */
+    header { display: none; }
+
+    /* 侧边栏圆点索引 */
+    .side_nav { display: none; }
+
+    /* Banner */
+    .container .banner_h1 { font-size: 59px; }
+    .banner_title { font-size: 26px; padding-bottom: 16px; }
+    .banner_title > span { display: block; }
+    .banner_text { font-size: 15px; }
+    .arrow {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        -webkit-animation: arrow_up .6s linear alternate infinite;
+        width: 40px;
+        height: 22px;
+        left: 50%;
+        margin-left: -20px;
+    }
+
+    /* 遮罩 */
+    .nav-item a { font-size: 17px; }
+
+    /* Intro 部分 */
+    section.intro { overflow: auto; height: auto; }
+    .intro_content {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10% 5%;
+    }
+    .intro_item  {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .intro_item.second { padding: 0; }
+
+    /* 感受 Feel */
+    section.feel { height: auto; }
+    section.feel > .container { flex-direction: column; }
+    .feel_video {
+        width: 100%;
+        position: static;
+        padding: 15% 0;
+    }
+    .video_bg { display: none; }
+    .feel_text {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .feel_text > img { width: 15%; float: none; }
+    .feel_content, .feel_dots { display: none; }
+    .swiper-container {
+        display: block;
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .swiper-wrapper { margin-bottom: 13%; }
+    .swiper-slide a p {
+        line-height: 24px;
+        text-align: justify;
+        text-justify:inter-ideograph;
+    }
+    .swiper-slide a p:last-child {
+        width: 90%;
+        margin: 5% auto;
+        text-align: right;
+    }
+    .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        border: 1px solid #d6d6d6;
+        background: #2d2d2d;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active { background-color: #d6d6d6; }
+
+    /* 日程安排 Schedule */
+    section.schedule { height: auto; }
+    .schedule h2 { margin-top: 80px; }
+    .schedule_content {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .schedule_item { padding-left: 0; }
+    .schedule_icon { margin-left: -17px; }
+    .schedule_day, .schedule_time { margin-left: 45px; }
+    .schedule_day { font-size: 18px; }
+    .schedule_time { display: block; }
+    .icon_more { display: none; }
+
+    /* 奖励 Reward */
+    section.reward {
+        background: url("../img/reward.png") no-repeat center;
+        background-size: auto 100%;
+        height: auto;
+    }
+    .reward .container > img { display: none; }
+    .reward_content {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        float: none;
+        text-align: center;
+        background: rgba(0,0,0,0.6);
+    }
+    .reward_item > img, .reward_description { float: none; }
+    .reward_item { padding-top: 18%; }
+    .reward_item:first-child { margin-bottom: 0; }
+    .reward_description {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* 评委 Judge */
+    section.judge { height: auto; }
+    section.judge h2 {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .judge_description {
+        width: 90%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .judge_content { display: none; }
+    .judge_swiper {
+        width: 100%;
+        background-color: #efefef;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 50px;
+    }
+    .judge_slide > img {
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .judge_job { margin-bottom: 20px; }
+    .judge_info {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 30px;
+        color: #3e3a39;
+        font-size: 16px;
+    }
+
+    /* 评委简介 */
+    .judge_infomation { display: none; }
+
+    /* 主办方 合作伙伴 Partner */
+    section.partner {
+        background-color: #fff;
+        padding-top: 60px;
+        position: static;
+        height: auto;
+    }
+    .partner_content {
+        position: static;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+    }
+    .partner_logo h3 {
+        font-size: 16px;
+        color: #3e3a39;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-left: 10%;
+    }
+    .partner_items .partner_item { margin-right: 20px; }
+    .plus { display: none; }
+    .partner_item img {
+        opacity: 1;
+        -webkit-filter: grayscale(0);
+    }
+    .partner .register {
+        display: block;
+        width: 140px;
+        height: 45px;
+        line-height: 45px;
+        margin: 0 auto 50px;
+        background: #990100;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 25px;
+    }
+
+    /* 申请赞助 Sponsor */
+    section.sponsor {
+        height: auto;
+        background-size: auto 100%;
+        overflow: auto;
+    }
+    .sponsor_content { width: 80%; }
+    .sponsor_content > h3 {
+        padding-top: 50px;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .sponsor_content > h3 .dot { display: none; }
+    .sponsor_content > h3 span:nth-child(2) {
+        display: block;
+        height: 15px;
+    }
+    .sponsor_description p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .sponsor_title { margin-bottom: 15px; }
+    .sponsor_description p:last-child span {
+        display: block;
+        height: 15px;
+    }
+    .sponsor_btn {
+        background: #990100;
+        margin: 50px 0;
+    }
+
+    /* 地图 Map */
+    section.map { display: none; }
+
+    /* Contact Us */
+    section.contact {
+        display: block;
+        height: auto;
+        background: #3d3d3d;
+        color: #fff;
+    }
+    section.contact a { color: #fff; }
+    .contact > h3 {
+        width: 90%;
+        font-size: 22px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .contact_line {
+        width: 40px;
+        height: 2px;
+        background: #f64d4d;
+        margin: 20px 0 23px 5%;
+        display: block;
+    }
+    .contact_text { width: 90%; margin: 20px auto; }
+    .contact_item { width: 90%; margin-bottom: 20px; }
+    .contact_item p { font-size: 16px; line-height: 22px; }
+    .co_title { margin-bottom: 10px; }
+    .copyright {
+        text-align: center;
+        padding: 20px 0;
+        color: #767676;
+    }
+}
