@@ -1,0 +1,10 @@
+#Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#My configurations:
+db.ini
+.tags1
+img/vedio.mp4
+node_modules
