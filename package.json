@@ -1,0 +1,34 @@
+{
+  "name": "tourism",
+  "version": "1.0.0",
+  "description": "\u00162015 China tourism developers competition (practice)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchen92/tourism.git"
+  },
+  "keywords": [
+    "tourism",
+    "competition",
+    "fuchen"
+  ],
+  "author": "浮尘",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchen92/tourism/issues"
+  },
+  "homepage": "https://github.com/fuchen92/tourism#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
