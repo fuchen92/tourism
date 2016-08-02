@@ -48,6 +48,8 @@
 
 启动服务
 
-    gulp default
+```
+    gulp
+```
 
 浏览器访问
