@@ -15,15 +15,15 @@
             img                         // 存放图片
             js                          // 存放输出后的js文件
 
-        node_modules                    // 此目录内容较多，不予上传
+        node_modules                    
 
         public                          // 公共资源文件夹
             font                        // 存放字体文件
                 .
                 .
                 .
-            jquery                      // jQuery库
-            swiper                      // swiper库
+            jquery                      // jQuery
+            swiper                      // swiper
 
         src                             // 源文件
             css                         // css源文件
