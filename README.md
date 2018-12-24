@@ -2,7 +2,7 @@
 
 2015 China tourism developers competition (practice)
 
-**说明：**本网页纯属练手，不支持低版本浏览器，请使用Chrome，Firefox，Edge 或其他浏览器升级至最高版本查看。原版出处请参考 http://event.traveldaily.cn/thack2015     
+**说明：**本网页纯属练手，不支持低版本浏览器，请使用Chrome，Firefox，Edge 或其他浏览器升级至最高版本查看。
 
 本页与原版有不同之处，属练手之作，主要目的是学习gulp，测试和实验gulp功能，尝试把gulp运用到实际项目中。
 
